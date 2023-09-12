@@ -13,7 +13,7 @@ import pandas as pd
 import numpy as np
 import torch
 from torch.utils.data import DataLoader, Dataset, TensorDataset, random_split
-from ops import reshape_fortran, jaccardLoss
+from model_ops import reshape_fortran, jaccardLoss
 
 def trainModel(model, dataset, optimizer, device, split, batch_size, max_epochs, patience, start_time):
     # Overarching training function

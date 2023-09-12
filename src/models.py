@@ -9,7 +9,7 @@ Contact: fay.wang@columbia.edu
 """
 
 # Import packages
-from ops import *
+from model_ops import *
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
